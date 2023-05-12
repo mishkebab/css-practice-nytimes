@@ -1,31 +1,44 @@
 @use '../variables' as *;
 
 .main-nav {
-  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
 }
 
 .left-nav > ul,
 .right-nav > ul {
-  
+  display: flex;
+  align-items:center;
 }
 
 .left-nav {
 
   > ul {
     > li {
-      
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 10px;
+      text-transform: capitalize;
+      margin: 20px;
     }
   }
 
   span {
-    
+    margin: 20px;
   }
 }
 
 .right-nav  {
   > ul {
     > li {
-      
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 10px;
+      text-transform: capitalize;
+      :hover {
+        background-color:darkblue;
+      }
+      margin: 20px;
     }
 
     > li:last-of-type {
@@ -34,13 +47,15 @@
   }
   
   i {
-    
+    font-size: 12px;
   }
 }
 
 .left-nav > ul > li:hover,
 .right-nav > ul > li:last-of-type:hover {
-  
+  :hover {
+    background-color:$light-gray;
+  }
 }
 
     

@@ -7,21 +7,24 @@ html {
 }
 
 body {
-	// ...
+	width: 80%;
+	margin: 0 auto;
+	font-family: $serif;
+	font-size: 12px;
 }
 
 button {
-	// background-color:
-	// border-color:
-	// color:
-	// font-weight:
-	// padding:
-	// border-radius:
-	// transition:
-	// font-family:
-	// text-transform:
-	// font-size:
-	// text-align:
+	background-color: rgb(113, 155, 214);
+	border-color: blue;
+	color: white;
+	font-weight:bold;
+	padding: 4px;
+	border-radius: 3px;
+	transition: 0.3s;
+	font-family: $sans-serif;
+	// text-transform: lowercase;
+	// font-size: 10px;
+	// text-align: right;
 }
 
 button:hover {
