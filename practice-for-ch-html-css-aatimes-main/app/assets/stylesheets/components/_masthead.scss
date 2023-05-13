@@ -26,9 +26,17 @@
 		color: $dark-gray;
 	}
 
+	a:first-of-type {
+		font-weight: bold;
+	}
+
 	ul {
 		display: flex;
 	}
+
+	a:hover {
+		text-decoration: underline;
+	  }
 }
 
 .logo {
@@ -46,6 +54,11 @@
 	li {
 		margin-left: 10px;
 		border-right: 1px solid $light-gray;
+
+	}
+
+	li:last-of-type { 
+		border-right: none
 	}
 
 	button {
@@ -58,6 +71,12 @@
 
 	button:hover {
 		background-color: $lightest-gray;
+		text-decoration: underline;
+	}
+
+	a:hover {
+		background-color: $gray;
+
 	}
 
 	a,
